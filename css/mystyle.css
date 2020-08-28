@@ -1,15 +1,19 @@
-.videos{
-	width: 100%;
-	text-align: center;
-	margin-top: 50px;
-	box-shadow: 10px 5px 10px;
-}
 
 body{
 	width: 100%;
 	background: black;
+
+
 	/*background-image: linear-gradient(to top, black, #999999, grey, black);*/
+	
 }
+
+.fondoImg{
+	/*background-image:url(../Imagenes/fondo4.jpg);*/
+	/*background-repeat: no-repeat;*/
+
+}
+
 
 @-webkit-keyframes scale-up-center {
   0% {
@@ -35,7 +39,9 @@ body{
 .scale-up-center {
 	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 	animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	background-image: linear-gradient(to top, black, #999999, grey, black);
+	/*background-image: radial-gradient(to top, black, #999999, grey, black);*/
+	 background-image: radial-gradient(ellipse farthest-corner at 150px 150px , #424242 0%, rgba(0, 0, 255, 0) 50%, black 15%);
+} 
 }
 
 
@@ -59,6 +65,7 @@ body{
   border-radius: 10px;
   right: 185px;
   bottom: 50px;
+  /*box-shadow: 5px 5px 10px;*/
  }
 
 
@@ -83,6 +90,7 @@ h1{
 
 .article__parrafo{
 	color: white;
+	text-align: center;
 }
 
 nav{
@@ -92,6 +100,7 @@ nav{
 nav li{
 	display: inline;
 	margin-right: 25px;
+
 }
 
 @media only screen and (max-width: 1000px) {
@@ -109,26 +118,54 @@ nav li{
 
 
 h3{
-	text-align: center;
-	margin-bottom: 1px;
 	color: white;
+	font-size: 18pt;
+	margin-bottom: 30px;
+	text-shadow: 1px 1px 5px white;
 }
+
+section{
+		
+}
+
+.grid-nuevas{
+	display: grid;
+	grid-template-columns: 200px 200px 200px 200px;
+	grid-template-rows: 450px 450px;
+	grid-column-gap: 40px;
+	grid-row-gap: 20px;
+}
+
 
 .grid-div{
 	display: grid;
-	grid-template-columns: 200px 200px 200px;
-	grid-template-rows: 450px 450px 450px;
-	grid-column-gap: 34px;
-	/*grid-row-gap: 0px; */
+	grid-template-columns: 200px 200px 200px 200px;
+	grid-template-rows: 450px 450px;
+	grid-column-gap: 40px;
+	grid-row-gap: 100px;
+
+	
 }
 
-/*section{
-}*/
+.contenedor{
+	width: 25%;
+	margin: 0px auto;
+}
+
+.homeGrid{
+	/*border: grey solid 1px;*/
+	width: 80%;
+	margin: 0px auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+}
+
 
 figure img{
 	margin: 0px auto;
     border-radius: 5px;
-
     -webkit-transition:-webkit-transform 0.2s ease-in-out 0.1s;
    
 }
@@ -142,7 +179,19 @@ figure img:hover{
 .flexPadre{
 	display: flex;
 	justify-content: center;
+
 		
+}
+
+.videos{
+	width: 100%;
+	text-align: center;
+	/*margin-top: 50px;*/
+	box-shadow: 10px 5px 10px;
+}
+
+section{
+	
 }
 
 /*figure{
@@ -162,6 +211,8 @@ aside{
 	
 	color: white;
 	width: 12%;
+	
+	
 }
 
 .menu-item {
@@ -206,10 +257,46 @@ p{
 footer{
 	background-color: grey;
 	color: black;
-	margin-top: 100px;
+	margin-top: 200px;
 	margin-bottom: 50px;
 	text-align: center;
 	border-radius: 15px;
 
 }
 
+
+								/*Style Guitarras*/
+
+
+.centrar{
+	margin: 0px auto;
+	/*width: 30%;*/
+}
+
+.hs{
+	color: white;
+	/*text-align: center;*/
+}
+
+.imagenUsada{
+	text-align: center;
+}
+
+.flexsection{
+	display: grid;
+	grid-template-columns: 300px 300px 600px;
+	grid-column-gap: 170px;
+	align-items: center;
+	
+}
+
+.maps{
+	width: 350px;
+	height: 300px;
+	border-radius: 10px;
+}
+
+.liColor{
+	color: red;
+
+}
