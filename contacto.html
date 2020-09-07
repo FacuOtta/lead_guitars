@@ -13,6 +13,7 @@
 
 	<link rel="stylesheet" href="css bootstrap/bootstrap.css">
 	<link rel="stylesheet" href="css/mystyle.css">
+	<link rel="stylesheet" href="fonts/style.css">
 	
 	 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
 	 </script>
@@ -24,11 +25,23 @@
 <body>
 
 	<header class="header scale-up-center">
-    	<a href="index.html">
+		<a href="index.html">
     		<img class="header__logo" src="Imagenes/Logo1.jpg">
     	</a>
     	<input type="text" name="nombre" placeholder="Search" class="buscador bordes">
     	
+    	<a href="https://www.facebook.com/">
+    		<span class="icon-facebook"></span>
+    	</a>
+    	<a href="https://www.google.com.ar/">	
+			<span class="icon-google"></span>
+		</a>
+		<a href="https://www.youtube.com/">
+			<span class="icon-youtube"></span>
+		</a>
+		<a href="https://twitter.com/">
+			<span class="icon-twitter"></span>
+		</a>    	
 	</header>
 		
 	<nav>
@@ -66,119 +79,114 @@
 
 
 
-<blockquote class="titulos">
-
-		<h3 id="contact">Contacto</h3>
-
-		<fieldset>
-			
-			<legend><strong>Sobre nosotros</strong></legend>
-
-				<ul>
-					<li>Email: leadguitars@gmail.com</li>
-					<li>Teléfonos: 5555-5555 / 6666-6666</li>
-					<li>Whatsapp: 11-1111-1111 (solo texto)</li>
-				</ul>	
-
-	    </fieldset> 
-
-		
-		
 
 
+<div class="divforms">
 
-	<hgroup class="titulos">
-		<h1>Envianos un Mensaje!</h1>
-		<h2>Por cualquier duda o consulta,<br>		
-		puede comunicarse completando el siguiente formulario:</h2>
-	</hgroup>
+<form class="needs-validation" novalidate>
+  <div class="form-row">
+    <div class="col-md-6 mb-3">
+      <label for="validationCustom01" class="forms_letras">Full
 
+       name</label>
+      <input type="text" class="form-control" id="validationCustom01">
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    </div>
+    <div class="col-md-6 mb-3">
+      <label for="validationCustom02" class="forms_letras">E-mail</label>
+      <input type="text" class="form-control" id="validationCustom02">
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="col-md-6 mb-3">
+      <label for="validationCustom03" class="forms_letras">Country</label>
+      <input type="text" class="form-control" id="validationCustom03" required>
+      <div class="invalid-feedback">
+        Please provide a valid city.
+      </div>
+    </div>
+    <div class="col-md-3 mb-3">
+      <label for="validationCustom04" class="forms_letras">City</label>
+      <select class="custom-select" id="validationCustom04" required>
+        <option selected disabled value="">Choose...</option>
+        <option>...</option>
+      </select>
+      <div class="invalid-feedback">
+        Please select a valid state.
+      </div>
+    </div>
+    <div class="col-md-3 mb-3">
+      <label for="validationCustom05" class="forms_letras">Password</label>
+      <input type="text" class="form-control" id="validationCustom05" required>
+      <div class="invalid-feedback">
+        Please provide a valid zip.
+      </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+      <label class="form-check-label forms_letras" for="invalidCheck">
+        Agree to terms and conditions
+      </label>
+      <div class="invalid-feedback">
+        You must agree before submitting.
+      </div>
+    </div>
+  </div>
+  <button class="btn btn-primary" type="submit">Submit form</button>
+</form>
 
+<script>
+// Example starter JavaScript for disabling form submissions if there are invalid fields
+(function() {
+  'use strict';
+  window.addEventListener('load', function() {
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.getElementsByClassName('needs-validation');
+    // Loop over them and prevent submission
+    var validation = Array.prototype.filter.call(forms, function(form) {
+      form.addEventListener('submit', function(event) {
+        if (form.checkValidity() === false) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+        form.classList.add('was-validated');
+      }, false);
+    });
+  }, false);
+})();
+</script>
 
+</div>
 
-	
-			</div>
-		</div>
-		
-	</div>
-	
+<footer>
 
-	
-	<form id="seldaPrincipal">
-		<fieldset>
-			<legend><strong>Información Personal</strong></legend>		
-				
-				<br>	
-				
-				<label for="sexo">Estado Civil:</label>
-				<br>
-				<br>	
-					<input type="radio" name="sexo" value="hombre">Soltero/a
-					<input type="radio" name="sexo" value="mujer">Casado/a
+	<p>
+		<a href="https://www.facebook.com/">
+    		<span class="icon-facebook"></span>
+    	</a>
+    	<a href="https://www.google.com.ar/">	
+			<span class="icon-google"></span>
+		</a>
+		<a href="https://www.youtube.com/">
+			<span class="icon-youtube"></span>
+		</a>
+		<a href="https://twitter.com/">
+			<span class="icon-twitter"></span>
+		</a>
+		<br>
+		Need Help? Call 800-472-6274, 9:30am - 9:00pm EST, Monday - Friday, 9:30am - 6:00pm EST, Saturday & Sunday
+	</p>
+	<p>The publication of the MSRP is for reference only and is not a representation of a selling price by Sam Ash or any other retailer.</p>
+	<p>Copyright © Lead Guitars, Inc.All Rights Reserved.</p>
+</footer>
 
-				<br>
-				<br>
-				
-
-				<label for="nombre">Nombre:</label>
-				<br>
-					<input type="text" name="nombre" placeholder="Nombre">
-
-				<br>
-
-				<label for="apellido">Apellido:</label>
-				<br>
-				 	<input type="text" placeholder="Apellido">
-
-				<br>
-
-				<label for="email">Email:</label>
-				<br>
-				 	<input type="text" placeholder="Email">
-
-				<br>
-				<br>
-
-				<label for="sexo">Sexo:</label>
-				
-				<select name="sexo">
-					<option value="m">Masculino</option>
-					<option value="f">Femenino</option>					
-				</select>	
-
-				<br>
-				<br>						
-
-				Comentarios
-				<br>
-				<label for="Comentarios">
-					<textarea name="Comentarios" cols="30" rows="10"></textarea>
-				</label>
-
-				<br>
-
-				<div>
-
-					<input class="btn btn-primary" type="reset" value="Reset">
-
-					<input class="btn btn-primary" type="submit" value="Submit">
-
-					<!-- <input type="submit" value="Enviar"> -->
-					
-				</div>
-
-			
-		</fieldset>
-
-		
-	</form>	 
-	
-
-
-
-</blockquote>
-
-<footer>Copyright © Lead Guitars, Inc.All Rights Reserved.</footer>
 
 	
 </body>

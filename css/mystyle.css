@@ -8,11 +8,6 @@ body{
 	
 }
 
-.fondoImg{
-	/*background-image:url(../Imagenes/fondo4.jpg);*/
-	/*background-repeat: no-repeat;*/
-
-}
 
 
 @-webkit-keyframes scale-up-center {
@@ -39,10 +34,8 @@ body{
 .scale-up-center {
 	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 	animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	/*background-image: radial-gradient(to top, black, #999999, grey, black);*/
-	 background-image: radial-gradient(ellipse farthest-corner at 150px 150px , #424242 0%, rgba(0, 0, 255, 0) 50%, black 15%);
+	background-image: radial-gradient(ellipse farthest-corner at 150px 150px , #424242 0%, rgba(0, 0, 255, 0) 50%, black 15%);
 } 
-}
 
 
 .header__ul{
@@ -76,7 +69,7 @@ body{
 
 .buscador{
 	margin: 20px 1px 5px 25px;
-	width: 60%;
+	width: 50%;
 }
 
 h1{
@@ -121,12 +114,9 @@ h3{
 	color: white;
 	font-size: 18pt;
 	margin-bottom: 30px;
-	text-shadow: 1px 1px 5px white;
+	text-shadow: 5px 4px 3px black;
 }
 
-section{
-		
-}
 
 .grid-nuevas{
 	display: grid;
@@ -152,8 +142,7 @@ section{
 	margin: 0px auto;
 }
 
-.homeGrid{
-	/*border: grey solid 1px;*/
+.homeflex{
 	width: 80%;
 	margin: 0px auto;
 	display: flex;
@@ -166,8 +155,7 @@ section{
 figure img{
 	margin: 0px auto;
     border-radius: 5px;
-    -webkit-transition:-webkit-transform 0.2s ease-in-out 0.1s;
-   
+    -webkit-transition:-webkit-transform 0.2s ease-in-out 0.1s;   
 }
 
 figure img:hover{
@@ -175,29 +163,21 @@ figure img:hover{
 }
 
 
-
 .flexPadre{
 	display: flex;
-	justify-content: center;
-
-		
+	justify-content: center;		
 }
 
 .videos{
 	width: 100%;
 	text-align: center;
-	/*margin-top: 50px;*/
 	box-shadow: 10px 5px 10px;
 }
 
-section{
-	
+.section{
+	margin-top: 150px;
 }
 
-/*figure{
-	width: 100%;
-
-}*/
 
 th{
 	color: white;
@@ -210,9 +190,7 @@ tr{
 aside{
 	
 	color: white;
-	width: 12%;
-	
-	
+	width: 12%;	
 }
 
 .menu-item {
@@ -220,8 +198,7 @@ aside{
 }
 
 .menu-item:hover .submenu {
-    display:block;
-     
+    display:block;     
 }
 
 .submenu {
@@ -241,41 +218,47 @@ aside{
 }
 
 
-
 blockquote{
 	text-align: center;
+}
+
+.divforms{
+	width: 50%;
+	margin: 0px auto;
+}
+.forms_letras{
+	color: white;
 }
 
 
 p{
 	text-align: center;
 	width: 73%;
-	margin: 0px auto;
-	
+	margin: 0px auto;	
 }
 
 footer{
-	background-color: grey;
-	color: black;
-	margin-top: 200px;
+	background-color: black;
+	color: white;
+	border: 1px solid grey;
+	margin-top: 100px;
 	margin-bottom: 50px;
-	text-align: center;
-	border-radius: 15px;
-
+	border-radius: 15px;*/
 }
+
+
+
 
 
 								/*Style Guitarras*/
 
 
 .centrar{
-	margin: 0px auto;
-	/*width: 30%;*/
+	margin: 0px auto;	
 }
 
 .hs{
 	color: white;
-	/*text-align: center;*/
 }
 
 .imagenUsada{
@@ -286,8 +269,7 @@ footer{
 	display: grid;
 	grid-template-columns: 300px 300px 600px;
 	grid-column-gap: 170px;
-	align-items: center;
-	
+	align-items: center;	
 }
 
 .maps{
@@ -298,5 +280,4 @@ footer{
 
 .liColor{
 	color: red;
-
 }
