@@ -2,13 +2,7 @@
 body{
 	width: 100%;
 	background: black;
-
-
-	/*background-image: linear-gradient(to top, black, #999999, grey, black);*/
-	
 }
-
-
 
 @-webkit-keyframes scale-up-center {
   0% {
@@ -37,7 +31,6 @@ body{
 	background-image: radial-gradient(ellipse farthest-corner at 150px 150px , #424242 0%, rgba(0, 0, 255, 0) 50%, black 15%);
 } 
 
-
 .header__ul{
 	-webkit-transition:-webkit-transform 0.2s ease-in-out 0.1s;
 }
@@ -45,7 +38,6 @@ body{
 .header__ul:hover{
     -webkit-transform: scale(1.1);
 }
-
 
 .header{
   border-radius: 10px;
@@ -58,14 +50,11 @@ body{
   border-radius: 10px;
   right: 185px;
   bottom: 50px;
-  /*box-shadow: 5px 5px 10px;*/
- }
-
+}
 
 .bordes{
 	border-radius: 10px;
 }
-
 
 .buscador{
 	margin: 20px 1px 5px 25px;
@@ -74,11 +63,6 @@ body{
 
 h1{
 	color: white ;
-}
-
-.article{
-	/*box-shadow: 15px 15px 15px;*/
-
 }
 
 .article__parrafo{
@@ -93,22 +77,18 @@ nav{
 nav li{
 	display: inline;
 	margin-right: 25px;
-
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 700px) {
   header .buscador {
     display: block;
     margin: 20px auto;
   }
 }
 
-
 .titulos{
 	color: white;
 }
-
-
 
 h3{
 	color: white;
@@ -116,7 +96,6 @@ h3{
 	margin-bottom: 30px;
 	text-shadow: 5px 4px 3px black;
 }
-
 
 .grid-nuevas{
 	display: grid;
@@ -126,15 +105,12 @@ h3{
 	grid-row-gap: 20px;
 }
 
-
 .grid-div{
 	display: grid;
 	grid-template-columns: 200px 200px 200px 200px;
 	grid-template-rows: 450px 450px;
 	grid-column-gap: 40px;
-	grid-row-gap: 100px;
-
-	
+	grid-row-gap: 100px;	
 }
 
 .contenedor{
@@ -148,9 +124,7 @@ h3{
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-
 }
-
 
 figure img{
 	margin: 0px auto;
@@ -161,7 +135,6 @@ figure img{
 figure img:hover{
     -webkit-transform: scale(1.2);
 }
-
 
 .flexPadre{
 	display: flex;
@@ -177,7 +150,6 @@ figure img:hover{
 .section{
 	margin-top: 150px;
 }
-
 
 th{
 	color: white;
@@ -211,12 +183,10 @@ aside{
     padding: 0;
 }
 
-
 .submenu li {
     display: block;
     padding: 10px;
 }
-
 
 blockquote{
 	text-align: center;
@@ -226,10 +196,10 @@ blockquote{
 	width: 50%;
 	margin: 0px auto;
 }
+
 .forms_letras{
 	color: white;
 }
-
 
 p{
 	text-align: center;
@@ -246,12 +216,7 @@ footer{
 	border-radius: 15px;*/
 }
 
-
-
-
-
 								/*Style Guitarras*/
-
 
 .centrar{
 	margin: 0px auto;	
