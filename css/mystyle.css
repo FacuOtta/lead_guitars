@@ -50,7 +50,7 @@ body{
   border-radius: 10px;
   right: 185px;
   bottom: 50px;
- }
+}
 
 .bordes{
 	border-radius: 10px;
@@ -81,7 +81,7 @@ nav li{
 	margin-right: 25px;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 700px) {
   header .buscador {
     display: block;
     margin: 20px auto;
@@ -197,6 +197,7 @@ blockquote{
 	width: 50%;
 	margin: 0px auto;
 }
+
 .forms_letras{
 	color: white;
 }
@@ -213,8 +214,9 @@ footer{
 	border: 1px solid grey;
 	margin-top: 100px;
 	margin-bottom: 50px;
-	border-radius: 15px;*/
+	border-radius: 15px;
 }
+
 								/*Style Guitarras*/
 
 .centrar{
