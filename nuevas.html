@@ -1,12 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
 	<meta name="keywords" content="lead guitars,quilmes,guitarras, usadas, vintage, musica, instrumentos musicales, sonido, cuerdas, estuches">	
-
 	<meta name="description" content="Tienda de Instrumentos musicales nuevos, usados, cuerdas, sonido y mucho mas!">
 
 	<title>Lead Guitars, venta de instrumentos musicales nuevos y usados!</title>
@@ -15,16 +12,13 @@
 	<link rel="stylesheet" href="css/mystyle.css">
 	<link rel="stylesheet" href="fonts/style.css">
 
-	<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous"> -->
-
 	 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
 	 </script>
      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-
 </head>
-<body>
-	
+
+<body>	
 	<header class="header scale-up-center">
 		<a href="index.html">
     		<img class="header__logo" src="Imagenes/Logo1.jpg">
@@ -45,260 +39,166 @@
 		</a>    	
 	</header>
 		
-	<nav>
-		<ul>
-			<li>
-				<a href="index.html">Home</a>
-			</li>
-			<li>
-				<a href="nuevas.html">Nuevas</a>
-			</li>
-			<li class="menu-item">
-				<a href="usadas.html">Usadas</a>	
-				<ul class="submenu">
-					<li>
-						<a href="nuevas.html">Excellent</a>
-					</li>
-					<li>
-					   <a href="usadas.html">Good</a>
-					</li>
-					<li>
-					   <a href="vintage.html">Poor</a>
-					</li>
-				</ul>
-			</li>
-			<li>
-				<a href="vintage.html">Vintage</a>
-			</li>
-			<li>
-				<a href="contacto.html">Contacto</a>
-			</li>			
-		</ul>
-		<img src="Imagenes/storeOpen.jpg" alt="img_store">
-		<h3>Guitarras nuevas</h3>
+	<nav class="navbar navbar-dark bg-dark navbar-expand-lg bottom-space">
+		<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+		  <ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" href="index.html">Home</a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="nuevas.html">Nuevas</a>
+				</li>
+				<li class="nav-item" style="position: relative;">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Usadas
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="usadas.html">Todas</a>
+						<a class="dropdown-item" href="nuevas.html">Excellent</a>
+						<a class="dropdown-item" href="usadas.html">Good</a>
+						<a class="dropdown-item" href="vintage.html">Poor</a>
+					</div>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="vintage.html">Vintage</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="contacto.html">Contacto</a>
+				</li>
+		  </ul>
+		</div>
 	</nav>
-	
 
-	
-<main>	  		
+	<main>
+		<section class="flexPadre fondoImg">		
 
-	<section class="flexPadre fondoImg">	
+			<div class="grid-nuevas">			
+				<figure>							
+					<a href="html guitarras/guitarras4.html">
+						<img src="Imagenes/Nuevas/Squier Limited Edition Bullet Telecaster Electric Guitar  Red Sparkle.jpg" alt="Excelente estado" width="200">
+					</a>
+					<figcaption class="titulos">
+						Squier Limited Edition Bullet Telecaster Electric Guitar Red Sparkle
+						<p class="liColor"><strong>Price: $500</strong></p>		
+							
+						<input class="btn btn-primary" type="buy" value="Add To Cart">	
+					</figcaption>	
+				</figure>	  	
 
-	<!--   <aside>
-	  		<h3>Guitarras Nuevas</h3>
-
-			<label for="store"> - Find in Stores</label>
-
-				<br>
-				<br>	
-					<input type="radio"> Electric
-				<br>	
-					<input type="radio"> Acoustic
-				<br>
-				    <input type="radio"> Classical
-
-				<br>	
-				<br>	
-
-			<label for="brands"> - Brands</label>
-				<br>
-				<br>	
-					<input type="radio"> Fender
-				<br>	
-					<input type="radio"> Gibson
-				<br>
-				    <input type="radio"> Epiphone
-				<br>	
-					<input type="radio"> Ibanez 
-				<br>	
-					<input type="radio"> PRS
-				<br>
-				    <input type="radio"> Taylor
-				<br>	
-					<input type="radio"> Martin
-				<br>	
-					<input type="radio"> Schecter
-				<br>
-				    <input type="radio"> Gretsch   
-				<br>	
-					<input type="radio"> Jackson
-				<br>				       
-	  </aside>	
-	   -->
-
-	  	<div class="grid-nuevas">	
-
-		
-			<figure>			
-				
-				<a href="html guitarras/guitarras4.html">
-				<img src="Imagenes/Nuevas/Squier Limited Edition Bullet Telecaster Electric Guitar  Red Sparkle.jpg" alt="Excelente estado" width="200">
-				</a>
-				<figcaption class="titulos">
-					Squier Limited Edition Bullet Telecaster Electric Guitar Red Sparkle
-					<p class="liColor"><strong>Price: $500</strong></p>		
-						
-					<input class="btn btn-primary" type="buy" value="Add To Cart">	
-				</figcaption>			
-
-
-			</figure>
-
-
-	  	
-
-			<figure>
-
-				<a href="html guitarras/guitarras5.html">
-				<img src="Imagenes/Nuevas/Fender American Professional Stratocaster Maple Fingerboard Electric Guitar  Antique Olive.jpg" alt="Excelente estado" width="200">
-				</a>
-				<figcaption class="titulos">
-					Fender American Professional Stratocaster Maple Fingerboard Olive
-					<p class="liColor"><strong>Price: $500</strong></p>
-						
-
-					<input class="btn btn-primary" type="buy" value="Add To Cart">
-				</figcaption>
-
+				<figure>
+					<a href="html guitarras/guitarras5.html">
+						<img src="Imagenes/Nuevas/Fender American Professional Stratocaster Maple Fingerboard Electric Guitar  Antique Olive.jpg" alt="Excelente estado" width="200">
+					</a>
+					<figcaption class="titulos">
+						Fender American Professional Stratocaster Maple Fingerboard Olive
+						<p class="liColor"><strong>Price: $500</strong></p>
+						<input class="btn btn-primary" type="buy" value="Add To Cart">
+					</figcaption>
 				</figure>
 
-		<figure>
+				<figure>
+					<a href="html guitarras/guitarras6.html">
+						<img src="Imagenes/Nuevas/Gibson Les Paul Traditional Pro V Flame Top Electric Guitar  Washed Cherry Burst.jpg" alt="Excelente estado" width="200">
+					</a>
+						<figcaption class="titulos">
+							Gibson Les Paul Traditional Pro V Flame Top Electric Guitar  Washed Cherry Burst
+							<p class="liColor"><strong>Price: $500</strong></p>	
+							<input class="btn btn-primary" type="buy" value="Add To Cart">
+						</figcaption>
+				</figure>
 
-			<a href="html guitarras/guitarras6.html">
-			<img src="Imagenes/Nuevas/Gibson Les Paul Traditional Pro V Flame Top Electric Guitar  Washed Cherry Burst.jpg" alt="Excelente estado" width="200">
-			</a>
-				<figcaption class="titulos">
-					Gibson Les Paul Traditional Pro V Flame Top Electric Guitar  Washed Cherry Burst
-					<p class="liColor"><strong>Price: $500</strong></p>
-					
+				<figure>
+					<a href="html guitarras/guitarras7.html">
+						<img src="Imagenes/Nuevas/Squier Affinity Stratocaster Electric Guitar  Surf Green.jpg" alt="Excelente estado" width="200">
+					</a>
+						<figcaption class="titulos">
+							Squier Affinity Stratocaster Surf Green Pickguard Maple Fingerboard Electric
+							<p class="liColor"><strong>Price: $500</strong></p>
+							
+							<input class="btn btn-primary" type="buy" value="Add To Cart">
+						</figcaption>
+				</figure>
 
-					<input class="btn btn-primary" type="buy" value="Add To Cart">
-				</figcaption>
+				<figure>
+					<a href="html guitarras/guitarras7.html">
+						<img src="Imagenes/Nuevas/Squier Affinity Stratocaster Electric Guitar  Surf Green.jpg" alt="Excelente estado" width="200">
+					</a>
+						<figcaption class="titulos">
+							Squier Affinity Stratocaster Surf Green Pickguard Maple Fingerboard Electric
+							<p class="liColor"><strong>Price: $500</strong></p>						
+							<input class="btn btn-primary" type="buy" value="Add To Cart">
+						</figcaption>
+				</figure>
 
-		</figure>
+				<figure>
+					<a href="html guitarras/guitarras4.html">
+						<img src="Imagenes/Nuevas/Squier Limited Edition Bullet Telecaster Electric Guitar  Red Sparkle.jpg" alt="Excelente estado" width="200">
+					</a>
+					<figcaption class="titulos">
+						Squier Limited Edition Bullet Telecaster Electric Guitar Red Sparkle
+						<p class="liColor"><strong>Price: $500</strong></p>					
+						<input class="btn btn-primary" type="buy" value="Add To Cart">	
+					</figcaption>
+				</figure>
 
-		<figure>
+				<figure>
+					<a href="html guitarras/guitarras5.html">
+						<img src="Imagenes/Nuevas/Fender American Professional Stratocaster Maple Fingerboard Electric Guitar  Antique Olive.jpg" alt="Excelente estado" width="200">
+					</a>
+					<figcaption class="titulos">
+						Fender American Professional Stratocaster Maple Fingerboard Olive
+						<p class="liColor"><strong>Price: $500</strong></p>
+						<input class="btn btn-primary" type="buy" value="Add To Cart">
+					</figcaption>
+				</figure>
 
-			<a href="html guitarras/guitarras7.html">
-			<img src="Imagenes/Nuevas/Squier Affinity Stratocaster Electric Guitar  Surf Green.jpg" alt="Excelente estado" width="200">
-			</a>
-				<figcaption class="titulos">
-					Squier Affinity Stratocaster Surf Green Pickguard Maple Fingerboard Electric
-					<p class="liColor"><strong>Price: $500</strong></p>
-					
-					<input class="btn btn-primary" type="buy" value="Add To Cart">
-				</figcaption>
+				<figure>
+					<a href="html guitarras/guitarras6.html">
+						<img src="Imagenes/Nuevas/Gibson Les Paul Traditional Pro V Flame Top Electric Guitar  Washed Cherry Burst.jpg" alt="Excelente estado" width="200">
+					</a>
+					<figcaption class="titulos">
+						Gibson Les Paul Traditional Pro V Flame Top Electric Guitar  Washed Cherry Burst
+						<p class="liColor"><strong>Price: $500</strong></p>
+						<input class="btn btn-primary" type="buy" value="Add To Cart">
+					</figcaption>
+				</figure>
+		</div>
+		</section>  
+	</main>	
 
-		</figure>
-
-		<figure>
-
-			<a href="html guitarras/guitarras7.html">
-			<img src="Imagenes/Nuevas/Squier Affinity Stratocaster Electric Guitar  Surf Green.jpg" alt="Excelente estado" width="200">
-			</a>
-				<figcaption class="titulos">
-					Squier Affinity Stratocaster Surf Green Pickguard Maple Fingerboard Electric
-					<p class="liColor"><strong>Price: $500</strong></p>
-					
-					<input class="btn btn-primary" type="buy" value="Add To Cart">
-				</figcaption>
-
-		</figure>
-
-		<figure>
-
-			<a href="html guitarras/guitarras4.html">
-				<img src="Imagenes/Nuevas/Squier Limited Edition Bullet Telecaster Electric Guitar  Red Sparkle.jpg" alt="Excelente estado" width="200">
-			</a>
-			<figcaption class="titulos">
-				Squier Limited Edition Bullet Telecaster Electric Guitar Red Sparkle
-				<p class="liColor"><strong>Price: $500</strong></p>		
-			
-				<input class="btn btn-primary" type="buy" value="Add To Cart">	
-			</figcaption>			
-
-
-		</figure>
-
-		<figure>
-
-			<a href="html guitarras/guitarras5.html">
-				<img src="Imagenes/Nuevas/Fender American Professional Stratocaster Maple Fingerboard Electric Guitar  Antique Olive.jpg" alt="Excelente estado" width="200">
-			</a>
-			<figcaption class="titulos">
-				Fender American Professional Stratocaster Maple Fingerboard Olive
-				<p class="liColor"><strong>Price: $500</strong></p>
-						
-
-				<input class="btn btn-primary" type="buy" value="Add To Cart">
-			</figcaption>
-
-		</figure>
-
-		<figure>
-
-	
-
-			<a href="html guitarras/guitarras6.html">
-			<img src="Imagenes/Nuevas/Gibson Les Paul Traditional Pro V Flame Top Electric Guitar  Washed Cherry Burst.jpg" alt="Excelente estado" width="200">
-			</a>
-				<figcaption class="titulos">
-					Gibson Les Paul Traditional Pro V Flame Top Electric Guitar  Washed Cherry Burst
-					<p class="liColor"><strong>Price: $500</strong></p>
-					
-
-					<input class="btn btn-primary" type="buy" value="Add To Cart">
-				</figcaption>
-
-
-		</figure>
-
-	  </div>
-
-
-
-	</section>  
-</main>	
 	<br>
 	<br>	
-
-
+	
 	<section class="videos">
-
-		<img src="Imagenes/violas.jpg" alt="guitarras" class="bordes">
-
+		<img src="Imagenes/violas.jpg" alt="guitarras" class="bordes banner">
 		<br>
 		<br>
-
 		<iframe width="560" height="315" src="https://www.youtube.com/embed/StzfQEruOyw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 		<iframe width="560" height="315" src="https://www.youtube.com/embed/GXdv0BmTfRQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 	</section>
 
-<footer>
-	
-
-	<p>
-		<a href="https://www.facebook.com/">
-    		<span class="icon-facebook"></span>
-    	</a>
-    	<a href="https://www.google.com.ar/">	
-			<span class="icon-google"></span>
-		</a>
-		<a href="https://www.youtube.com/">
-			<span class="icon-youtube"></span>
-		</a>
-		<a href="https://twitter.com/">
-			<span class="icon-twitter"></span>
-		</a>
-		<br>
-		Need Help? Call 800-472-6274, 9:30am - 9:00pm EST, Monday - Friday, 9:30am - 6:00pm EST, Saturday & Sunday
-	</p>
-	<p>The publication of the MSRP is for reference only and is not a representation of a selling price by Sam Ash or any other retailer.</p>
-	<p>Copyright © Lead Guitars, Inc.All Rights Reserved.</p>
-</footer>
-
-
+	<footer>
+		<p>
+			<a href="https://www.facebook.com/">
+				<span class="icon-facebook"></span>
+			</a>
+			<a href="https://www.google.com.ar/">	
+				<span class="icon-google"></span>
+			</a>
+			<a href="https://www.youtube.com/">
+				<span class="icon-youtube"></span>
+			</a>
+			<a href="https://twitter.com/">
+				<span class="icon-twitter"></span>
+			</a>
+			<br>
+			Need Help? Call 800-472-6274, 9:30am - 9:00pm EST, Monday - Friday, 9:30am - 6:00pm EST, Saturday & Sunday
+		</p>
+		<p>The publication of the MSRP is for reference only and is not a representation of a selling price by Sam Ash or any other retailer.</p>
+		<p>Copyright © Lead Guitars, Inc.All Rights Reserved.</p>
+	</footer>
 </body>
 </html>
