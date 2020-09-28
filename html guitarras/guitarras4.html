@@ -1,33 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	
+<head>	
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 	<meta name="keywords" content="lead guitars,quilmes,guitarras, usadas, vintage, musica, instrumentos musicales, sonido, cuerdas, estuches">	
-
 	<meta name="description" content="Tienda de Instrumentos musicales nuevos, usados, cuerdas, sonido y mucho mas!">
-
+	
 	<title>Lead Guitars,  venta de instrumentos musicales nuevos y usados!</title>
-
+	
 	<link rel="stylesheet" href="../css bootstrap/bootstrap.css">
 	<link rel="stylesheet" href="../css/mystyle.css"> 
 	<link rel="stylesheet" href="../animations.css">  
 	<link rel="stylesheet" href="../fonts/style.css">
- 
+	 
 	 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
 	 </script>
-     <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
- -->     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-
-	
+	 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </head>
 <body>	
 
-	<!-- BEM -->
 	<header class="header scale-up-center">
-		<a href="index.html">
+		<a href="../index.html">
     		<img class="header__logo" src="../Imagenes/Logo1.jpg">
     	</a>
     	<input type="text" name="nombre" placeholder="Search" class="buscador bordes">
@@ -46,98 +39,80 @@
 		</a>    	
 	</header>
 
-
-	<nav>
-		<ul>
-			<li>
-				<a href="../index.html">Home</a>
+	<nav class="navbar navbar-dark bg-dark navbar-expand-lg bottom-space">
+		<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+		  <ul class="navbar-nav">
+			<li class="nav-item">
+			  <a class="nav-link" href="../index.html">Home</a>
 			</li>
-			<li>
-				<a href="../nuevas.html">Nuevas</a>
+			<li class="nav-item">
+			  <a class="nav-link" href="../nuevas.html">Nuevas</a>
 			</li>
-			<li class="menu-item">
-				<a href="../usadas.html">Usadas</a>	
-				<ul class="submenu">
-					<li>
-						<a href="../usadas.html">Excellent</a>
-					</li>
-					<li>
-					   <a href="../usadas.html">Good</a>
-					</li >
-					<li>
-					   <a href="../usadas.html">Poor</a>
-					</li>
-				</ul>
+			<li class="nav-item" style="position: relative;">
+			  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				Usadas
+			  </a>
+			  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				<a class="dropdown-item" href="../usadas.html">Todas</a>
+				<a class="dropdown-item" href="../nuevas.html">Excellent</a>
+				<a class="dropdown-item" href="../usadas.html">Good</a>
+				<a class="dropdown-item" href="../vintage.html">Poor</a>
+			  </div>
 			</li>
-			<li>
-				<a href="../vintage.html">Vintage</a>
+			<li class="nav-item">
+			  <a class="nav-link" href="../vintage.html">Vintage</a>
 			</li>
-			<li>
-				<a href="../contacto.html">Contacto</a>
-			</li>			
-		</ul>
-		<img src="../Imagenes/usedGear.jpg" alt="instrumentos_usados">	
-	</nav>
+			<li class="nav-item">
+			  <a class="nav-link" href="../contacto.html">Contacto</a>
+			</li>
+		  </ul>
+		</div>
+	  </nav>
 	<br>
 	<h5 class="hs"> - Squier Limited Edition Bullet Telecaster Electric Guitar Red Sparkle</h5>
 	<br>
 
-<section class="flexsection">
-	
-
-	
+	<section class="flexsection">	
 		<figure class="centrar">
 			<img src="../Imagenes/Nuevas/Squier Limited Edition Bullet Telecaster Electric Guitar  Red Sparkle.jpg" alt="Excelente estado" width="250">
-			<figcaption>
-				<!-- <p class="hs"><strong>Product Description:</strong><br>
-					Made In: China. This product comes with a case. <br><br>
-					Condition: Exellent. <br><br>
-					<strong>Price: $500</strong>
-				</p> -->
-			</figcaption>
 		</figure>
-	
 
-				<fieldset>
-					
-					<legend class="hs"><strong>Product Description</strong></legend>
-
-						<ul class="hs">
-							<!-- <li>Email: leadguitars@gmail.com</li> -->
-							<li>Made In: China. This product comes with a case</li>
-							<li>Condition: Exellent</li>
-							<br>
-							<br>
-							<li class="liColor"><strong>Price: $500</strong></li>
-							<input class="btn btn-primary" type="buy" value="Add To Cart">
-						</ul>	
-
-			    </fieldset> 
-
+		<fieldset>					
+			<legend class="hs"><strong>Product Description</strong></legend>
+			<ul class="hs">
+				<li>Made In: China. This product comes with a case</li>
+				<li>Condition: Exellent</li>
+				<br>
+				<br>
+				<li class="liColor"><strong>Price: $500</strong></li>
+				<input class="btn btn-primary" type="buy" value="Add To Cart">
+			</ul>		
+		</fieldset>
 		<iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52467.87096218264!2d-58.28173942515596!3d-34.72429558951625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32e38e45f5777%3A0x6a86dac21334524f!2sQuilmes%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1598562994666!5m2!1ses!2sar" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-</section>
+	</section>
 
-
-<footer>	
-	<p>
-		<a href="https://www.facebook.com/">
-    		<span class="icon-facebook"></span>
-    	</a>
-    	<a href="https://www.google.com.ar/">	
-			<span class="icon-google"></span>
-		</a>
-		<a href="https://www.youtube.com/">
-			<span class="icon-youtube"></span>
-		</a>
-		<a href="https://twitter.com/">
-			<span class="icon-twitter"></span>
-		</a>
-		<br>
-		Need Help? Call 800-472-6274, 9:30am - 9:00pm EST, Monday - Friday, 9:30am - 6:00pm EST, Saturday & Sunday
-	</p>
-	<p>The publication of the MSRP is for reference only and is not a representation of a selling price by Sam Ash or any other retailer.</p>
-	<p>Copyright © Lead Guitars, Inc.All Rights Reserved.</p>
-</footer>
-	
+	<footer>	
+		<p>
+			<a href="https://www.facebook.com/">
+				<span class="icon-facebook"></span>
+			</a>
+			<a href="https://www.google.com.ar/">	
+				<span class="icon-google"></span>
+			</a>
+			<a href="https://www.youtube.com/">
+				<span class="icon-youtube"></span>
+			</a>
+			<a href="https://twitter.com/">
+				<span class="icon-twitter"></span>
+			</a>
+			<br>
+			Need Help? Call 800-472-6274, 9:30am - 9:00pm EST, Monday - Friday, 9:30am - 6:00pm EST, Saturday & Sunday
+		</p>
+		<p>The publication of the MSRP is for reference only and is not a representation of a selling price by Sam Ash or any other retailer.</p>
+		<p>Copyright © Lead Guitars, Inc.All Rights Reserved.</p>
+	</footer>	
 </body>
 </html>

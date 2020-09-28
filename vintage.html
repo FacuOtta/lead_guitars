@@ -43,40 +43,38 @@
 		</a>    	
 	</header>
 		
-	<nav>
-		<ul>
-			<li>
-				<a href="index.html">Home</a>
+	<nav class="navbar navbar-dark bg-dark navbar-expand-lg bottom-space">
+		<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+		  <ul class="navbar-nav">
+			<li class="nav-item">
+			  <a class="nav-link" href="index.html">Home</a>
 			</li>
-			<li>
-				<a href="nuevas.html">Nuevas</a>
+			<li class="nav-item">
+			  <a class="nav-link" href="nuevas.html">Nuevas</a>
 			</li>
-			<li class="menu-item">
-				<a href="usadas.html">Usadas</a>	
-				<ul class="submenu">
-					<li>
-						<a href="usadas.html">Excellent</a>
-					</li>
-					<li>
-					   <a href="usadas.html">Good</a>
-					</li>
-					<li>
-					   <a href="usadas.html">Poor</a>
-					</li>
-				</ul>
+			<li class="nav-item" style="position: relative;">
+			  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				Usadas
+			  </a>
+			  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				<a class="dropdown-item" href="usadas.html">Todas</a>
+				<a class="dropdown-item" href="nuevas.html">Excellent</a>
+				<a class="dropdown-item" href="usadas.html">Good</a>
+				<a class="dropdown-item" href="vintage.html">Poor</a>
+			  </div>
 			</li>
-			<li>
-				<a href="vintage.html">Vintage</a>
+			<li class="nav-item active">
+			  <a class="nav-link" href="vintage.html">Vintage</a>
 			</li>
-			<li>
-				<a href="contacto.html">Contacto</a>
-			</li>			
-		</ul>
-		<img src="Imagenes/storeOpen.jpg" alt="img_store">
-		<br>
-		<br>
-		<h3>Guitarras Vintage</h3>
-	</nav>
+			<li class="nav-item">
+			  <a class="nav-link" href="contacto.html">Contacto</a>
+			</li>
+		  </ul>
+		</div>
+	  </nav>
 
 
  
@@ -136,7 +134,7 @@
 
     	</aside> --> 
 
-	   	  <div class="grid-div">	
+	<div class="grid-div grid-nuevas">	
 
 			<figure>
 
@@ -256,7 +254,7 @@
 
 	<section class="videos section">
 
-		<img src="Imagenes/violas.jpg" alt="guitarras" class="bordes">
+		<img src="Imagenes/violas.jpg" alt="guitarras" class="bordes banner">
 
 		<br>
 		<br>
