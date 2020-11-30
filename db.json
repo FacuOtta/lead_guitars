@@ -6,6 +6,27 @@
       "brand": "Gibson",
       "model": "Les Paul",
       "year": 2010
+    },
+    {
+      "id": 2,
+      "title": "Fender Stratocaster",
+      "brand": "Fender",
+      "model": "Stratocaster",
+      "year": 2000
+    },
+    {
+      "id": 3,
+      "title": "Gretsch Streamliner",
+      "brand": "Gretsch",
+      "model": "Streamliner",
+      "year": 2011
+    },
+    {
+      "id": 4,
+      "title": "Fender Telecaster",
+      "brand": "Fender",
+      "model": "Telecaster",
+      "year": 1999
     }
   ]
 }
