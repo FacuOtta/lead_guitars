@@ -1,8 +1,11 @@
-
 {
-  "id": 1,
-  "title": "Lead Guitars Store Address",
-  "street": "5th Avenue 123",
-  "city": "New York",
-  "zip_code": "10011"
+  "address": [
+    {
+      "id": 1,
+      "title": "Lead Guitars Store Address",
+      "street": "5th Avenue 123",
+      "city": "New York",
+      "zip_code": "10011"
+    }
+  ]
 }
