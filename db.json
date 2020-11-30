@@ -1,4 +1,6 @@
 {
-  "brand": "Gibson",
-  "model": "Les Paul"
+  "giuitars": [
+    "brand": "Gibson",
+    "model": "Les Paul"
+  ]
 }
