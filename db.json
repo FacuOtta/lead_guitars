@@ -1,32 +1,8 @@
+
 {
-  "guitars": [
-    {
-      "id": 1,
-      "title": "Gibson Les Paul",
-      "brand": "Gibson",
-      "model": "Les Paul",
-      "year": 2010
-    },
-    {
-      "id": 2,
-      "title": "Fender Stratocaster",
-      "brand": "Fender",
-      "model": "Stratocaster",
-      "year": 2000
-    },
-    {
-      "id": 3,
-      "title": "Gretsch Streamliner",
-      "brand": "Gretsch",
-      "model": "Streamliner",
-      "year": 2011
-    },
-    {
-      "id": 4,
-      "title": "Fender Telecaster",
-      "brand": "Fender",
-      "model": "Telecaster",
-      "year": 1999
-    }
-  ]
+  "id": 1,
+  "title": "Lead Guitars Store Address",
+  "street": "5th Avenue 123",
+  "city": "New York",
+  "zip_code": "10011"
 }
