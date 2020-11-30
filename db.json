@@ -1,19 +1,8 @@
 {
   "guitars": [
     {
-      "brand": "Gibson",
-      "model": "Les Paul",
-      "year": 2010
-    },
-    {
-      "brand": "Fender",
-      "model": "Telecaster",
-      "year": 2000
-    },
-    {
-      "brand": "Gretsch",
-      "model": "Streamliner",
-      "year": 2015
+      "id": 1,
+      "title": "Gibson Les Paul"
     }
   ]
 }
