@@ -2,9 +2,9 @@
   "guitars": [
     {
       "id": 1,
-      "title": "Gibson Les Paul"
+      "title": "Gibson Les Paul",
       "brand": "Gibson",
-      "model": "Les Paul"
+      "model": "Les Paul",
       "year": 2010
     }
   ]
